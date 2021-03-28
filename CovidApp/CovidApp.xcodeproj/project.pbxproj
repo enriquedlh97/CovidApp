@@ -15,6 +15,7 @@
 		53C4599626112F58002CE034 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 53C4599526112F58002CE034 /* SwiftyJSON */; };
 		53C4599A26112FCC002CE034 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 53C4599926112FCC002CE034 /* Kingfisher */; };
 		53C4599E26112FF3002CE034 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 53C4599D26112FF3002CE034 /* SwiftUICharts */; };
+		53C459A2261130B4002CE034 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53C459A1261130B4002CE034 /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		53C4598326112D31002CE034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53C4598626112D31002CE034 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53C4598826112D31002CE034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C459A1261130B4002CE034 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		53C4597E26112D30002CE034 /* CovidApp */ = {
 			isa = PBXGroup;
 			children = (
+				53C459A02611301C002CE034 /* Fonts */,
 				53C4597F26112D30002CE034 /* CovidAppApp.swift */,
 				53C4598126112D30002CE034 /* ListView.swift */,
 				53C4598326112D31002CE034 /* Assets.xcassets */,
@@ -75,6 +78,14 @@
 				53C4598626112D31002CE034 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53C459A02611301C002CE034 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				53C459A1261130B4002CE034 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C459A2261130B4002CE034 /* Roboto-Regular.ttf in Resources */,
 				53C4598726112D31002CE034 /* Preview Assets.xcassets in Resources */,
 				53C4598426112D31002CE034 /* Assets.xcassets in Resources */,
 			);
