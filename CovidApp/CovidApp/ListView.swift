@@ -14,7 +14,7 @@ struct ListView: View {
     }
 }
 
-struct ListView_Previews: PreviewProvider {
+struct ListbbbbbView_Previews: PreviewProvider {
     static var previews: some View {
         ListView()
     }
