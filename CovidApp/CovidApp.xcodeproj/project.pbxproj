@@ -13,6 +13,8 @@
 		53C4598726112D31002CE034 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C4598626112D31002CE034 /* Preview Assets.xcassets */; };
 		53C4599226112E5B002CE034 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 53C4599126112E5B002CE034 /* Alamofire */; };
 		53C4599626112F58002CE034 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 53C4599526112F58002CE034 /* SwiftyJSON */; };
+		53C4599A26112FCC002CE034 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 53C4599926112FCC002CE034 /* Kingfisher */; };
+		53C4599E26112FF3002CE034 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 53C4599D26112FF3002CE034 /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C4599A26112FCC002CE034 /* Kingfisher in Frameworks */,
+				53C4599E26112FF3002CE034 /* SwiftUICharts in Frameworks */,
 				53C4599626112F58002CE034 /* SwiftyJSON in Frameworks */,
 				53C4599226112E5B002CE034 /* Alamofire in Frameworks */,
 			);
@@ -92,6 +96,8 @@
 			packageProductDependencies = (
 				53C4599126112E5B002CE034 /* Alamofire */,
 				53C4599526112F58002CE034 /* SwiftyJSON */,
+				53C4599926112FCC002CE034 /* Kingfisher */,
+				53C4599D26112FF3002CE034 /* SwiftUICharts */,
 			);
 			productName = CovidApp;
 			productReference = 53C4597C26112D30002CE034 /* CovidApp.app */;
@@ -123,6 +129,8 @@
 			packageReferences = (
 				53C4599026112E5B002CE034 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				53C4599426112F58002CE034 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				53C4599826112FCC002CE034 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				53C4599C26112FF3002CE034 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 53C4597D26112D30002CE034 /* Products */;
 			projectDirPath = "";
@@ -358,6 +366,22 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		53C4599826112FCC002CE034 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.1;
+			};
+		};
+		53C4599C26112FF3002CE034 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -370,6 +394,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 53C4599426112F58002CE034 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		53C4599926112FCC002CE034 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53C4599826112FCC002CE034 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		53C4599D26112FF3002CE034 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53C4599C26112FF3002CE034 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
