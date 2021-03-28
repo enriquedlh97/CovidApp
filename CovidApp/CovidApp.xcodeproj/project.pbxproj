@@ -16,6 +16,7 @@
 		53C4599A26112FCC002CE034 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 53C4599926112FCC002CE034 /* Kingfisher */; };
 		53C4599E26112FF3002CE034 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 53C4599D26112FF3002CE034 /* SwiftUICharts */; };
 		53C459A2261130B4002CE034 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53C459A1261130B4002CE034 /* Roboto-Regular.ttf */; };
+		53C459A526113107002CE034 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C459A426113107002CE034 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		53C4598626112D31002CE034 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53C4598826112D31002CE034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53C459A1261130B4002CE034 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		53C459A426113107002CE034 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		53C459A726113192002CE034 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		53C459A8261131D1002CE034 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +87,10 @@
 		53C459A02611301C002CE034 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				53C459A8261131D1002CE034 /* Roboto-Italic.ttf */,
+				53C459A726113192002CE034 /* Roboto-Bold.ttf */,
 				53C459A1261130B4002CE034 /* Roboto-Regular.ttf */,
+				53C459A426113107002CE034 /* Fonts.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -171,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C4598226112D30002CE034 /* ListView.swift in Sources */,
+				53C459A526113107002CE034 /* Fonts.swift in Sources */,
 				53C4598026112D30002CE034 /* CovidAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
