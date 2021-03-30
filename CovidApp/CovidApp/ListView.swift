@@ -21,7 +21,11 @@ struct ListView: View {
                 List(cases.casesList) { country in // iterate over country list which is casesList
                     Text(country.country)
                 }
+                .listStyle(PlainListStyle())
             }
+            .padding(.bottom,20)
+            .navigationBarTitle("COVID-19")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
