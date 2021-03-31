@@ -22,6 +22,7 @@ struct CountryCellView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 120, height: 69)
+                        .padding(.top, -2)
                 }
                 // Right side
                 VStack {
