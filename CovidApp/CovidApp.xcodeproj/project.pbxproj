@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5307231B2612ABCD001DB26E /* Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307231A2612ABCD001DB26E /* Cases.swift */; };
 		5307231E2612AF4A001DB26E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307231D2612AF4A001DB26E /* DataModel.swift */; };
+		5390439A26142A6000AFA9F3 /* CountryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5390439926142A6000AFA9F3 /* CountryCellView.swift */; };
 		53AEEB2B261135700019EE7F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AEEB2A261135700019EE7F /* Colors.xcassets */; };
 		53C4598026112D30002CE034 /* CovidAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4597F26112D30002CE034 /* CovidAppApp.swift */; };
 		53C4598226112D30002CE034 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4598126112D30002CE034 /* ListView.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		5307231A2612ABCD001DB26E /* Cases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cases.swift; sourceTree = "<group>"; };
 		5307231D2612AF4A001DB26E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		5390439926142A6000AFA9F3 /* CountryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCellView.swift; sourceTree = "<group>"; };
 		53AEEB2A261135700019EE7F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		53C4597C26112D30002CE034 /* CovidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C4597F26112D30002CE034 /* CovidAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidAppApp.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				53C459A02611301C002CE034 /* Fonts */,
 				53C4597F26112D30002CE034 /* CovidAppApp.swift */,
 				53C4598126112D30002CE034 /* ListView.swift */,
+				5390439926142A6000AFA9F3 /* CountryCellView.swift */,
 				53C4598326112D31002CE034 /* Assets.xcassets */,
 				53C4598826112D31002CE034 /* Info.plist */,
 				53AEEB2A261135700019EE7F /* Colors.xcassets */,
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5307231E2612AF4A001DB26E /* DataModel.swift in Sources */,
+				5390439A26142A6000AFA9F3 /* CountryCellView.swift in Sources */,
 				53C4598226112D30002CE034 /* ListView.swift in Sources */,
 				5307231B2612ABCD001DB26E /* Cases.swift in Sources */,
 				53C459A526113107002CE034 /* Fonts.swift in Sources */,
