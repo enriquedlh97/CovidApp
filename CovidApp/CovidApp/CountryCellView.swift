@@ -18,29 +18,28 @@ struct CountryCellView: View {
             HStack {
                 // Left side
                 VStack {
+                    Text(country.country)
+                        .font(.Roboto(size: 24))
                     KFImage(URL(string:  country.flag)!)
                         .resizable()
-                        .scaledToFit()
+                        //.scaledToFit()
                         .frame(width: 120, height: 69)
                         .padding(.top, -2)
+                        .cornerRadius(6)
+                        .overlay(RoundedRectangle(cornerRadius: 6)
+                                    .stroke(Color.black, lineWidth: 1)
+                        )
                 }
                 // Right side
                 VStack {
                     Spacer()
-                    HStack {
-                        Text("Cases:")
-                        Spacer()
-                        Text(String(format: "%0.0f", country.cases))
-                    }
-                    HStack {
-                        Text("Deaths:")
-                        Spacer()
-                        Text(String(format: "%0.0f", country.deaths))
-                    }
+                    DataView(title: "Cases", value: country.cases)
+                    DataView(title: "Deaths", value: country.deaths)
+                    DataView(title: "Recovered", value: country.recovered)
                     Spacer()
                 }
             }
-            .padding(.horizontal, 20)
+            //.padding(.horizontal, 20)
         }
     }
 }
