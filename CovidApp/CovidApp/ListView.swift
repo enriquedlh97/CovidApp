@@ -19,7 +19,7 @@ struct ListView: View {
         NavigationView {
             VStack {
                 List(cases.casesList) { country in // iterate over country list which is casesList and the list is order by most cases to less cases
-                    NavigationLink(destination: CountryView(country: country), label: {CountryCellView(country: country)})
+                    NavigationLink(destination: CountryView(country: country, cases: cases), label: {CountryCellView(country: country)})
                 }
                 .listStyle(PlainListStyle())
             }

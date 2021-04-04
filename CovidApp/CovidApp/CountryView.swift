@@ -12,6 +12,7 @@ struct CountryView: View {
     
     // Received parameter
     var country: Cases
+    @StateObject var cases: DataModel
     
     var body: some View {
         VStack {
@@ -29,6 +30,14 @@ struct CountryView: View {
                 DataView(title: "Critical", value: country.critical)
             }
             .padding(.horizontal, 80)
+            NavigationLink(destination: GraphsView(country: country, cases: cases),
+                           label: {
+                            VStack {
+                                Text("Graphs")
+                                    .font(.Roboto(size: 24))
+                                Image(systemName: "chart.bar.fill")
+                            }
+                           })
             Spacer()
             MapView(country: country)
                 .padding(.bottom, 40)
@@ -40,6 +49,6 @@ struct CountryView: View {
 
 struct CountryView_Previews: PreviewProvider {
     static var previews: some View {
-        CountryView(country: Cases.dummy)
+        CountryView(country: Cases.dummy, cases: DataModel())
     }
 }
