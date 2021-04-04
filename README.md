@@ -1,6 +1,14 @@
 # CovidApp
 App for visualizing covid data and statistics
 
+<p align="center">
+  <img src="https://github.com/enriquedlh97/CovidApp/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-04-04%20at%2010.33.16.png" width="180">
+  <img src="https://github.com/enriquedlh97/CovidApp/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-04-04%20at%2010.33.36.png" width="180">
+  <img src="https://github.com/enriquedlh97/CovidApp/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-04-04%20at%2010.34.05.png" width="180">
+  <img src="https://github.com/enriquedlh97/CovidApp/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-04-04%20at%2010.34.27.png" width="180">
+  <img src="https://github.com/enriquedlh97/CovidApp/blob/main/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-04-04%20at%2010.34.37.png" width="180">
+
+
 ## Dependencies
 
 ```
