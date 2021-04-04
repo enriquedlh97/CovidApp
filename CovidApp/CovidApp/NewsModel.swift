@@ -13,9 +13,9 @@ import Alamofire
 class NewsModel: ObservableObject {
     
     @Published var newsList = [News]() // Contains list of all news in countries
-    var country: Cases
     init() {
-        self.country = Cases.dummy
+        
+        get_news(country: Cases.dummy)
     }
     
     func get_news(country: Cases) {

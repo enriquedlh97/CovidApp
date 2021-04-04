@@ -40,7 +40,7 @@ struct CountryView: View {
                             }
                            })
             Spacer()
-            NavigationLink(destination: FeedView(country: country),
+                NavigationLink(destination: FeedView(country: country),
                            label: {
                                 VStack {
                                     Text("News")
