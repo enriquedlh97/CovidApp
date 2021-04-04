@@ -17,9 +17,19 @@ struct DataView: View {
             Text(title)
                 .font(.Roboto(size: 20))
             Spacer()
-            Text(String(format: "%0.0f", value))
+            //Text(String(format: "%0.0f", value))
+            Text(add_comma(value: value))
                 .font(.Roboto(size: 20))
         }
+    }
+    
+    func add_comma(value: Double) -> String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .decimal
+        formatter.maximumFractionDigits = 2
+        let formattedAmount = formatter.string(from: value as NSNumber)!
+        print(formattedAmount)
+        return formattedAmount
     }
 }
 
