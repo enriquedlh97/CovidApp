@@ -58,6 +58,7 @@ class DataModel: ObservableObject {
         
     }
     
+    // The @escaping decorator indicates that it generates the data in an asynchronous manner
     func getHistory(country: String, handler: @escaping(_ cases: [(String,Double)], _ deaths: [(String,Double)]) -> ()) {
         
         let URL = "https://disease.sh/v3/covid-19/historical/\(country)?lastdays=70"
@@ -76,12 +77,14 @@ class DataModel: ObservableObject {
             var returnedDeaths = [(String, Double)]()
             for hist in json {
                 if hist.0 == "timeline" {
+                    // adds each element for every day t the unsorted array. Here we are saving the data to use it later
                 for value in hist.1["cases"] {
                     unsortedCases.append((self.dateToNewDate(value.0), value.1.doubleValue))
                 }
                 sortedCases = unsortedCases.sorted {
                     $0.0 < $1.0
                 }
+                    // This adds the cases in multiples of seven days so that our graphs can be displayed in weeks
                 for i in 0..<sortedCases.count {
                     if i % 7 == 0 {
                         returnedCases.append(sortedCases[i])

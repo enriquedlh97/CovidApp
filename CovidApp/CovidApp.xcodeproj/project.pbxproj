@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5307231B2612ABCD001DB26E /* Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307231A2612ABCD001DB26E /* Cases.swift */; };
 		5307231E2612AF4A001DB26E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307231D2612AF4A001DB26E /* DataModel.swift */; };
+		53165025261949CE00E75A2F /* GraphsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53165024261949CE00E75A2F /* GraphsView.swift */; };
 		535D474A261569B8001E851B /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535D4749261569B8001E851B /* CountryView.swift */; };
 		535D474D26156AFE001E851B /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535D474C26156AFE001E851B /* DataView.swift */; };
 		535D475026156F4E001E851B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535D474F26156F4E001E851B /* MapView.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		5307231A2612ABCD001DB26E /* Cases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cases.swift; sourceTree = "<group>"; };
 		5307231D2612AF4A001DB26E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		53165024261949CE00E75A2F /* GraphsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsView.swift; sourceTree = "<group>"; };
 		535D4749261569B8001E851B /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
 		535D474C26156AFE001E851B /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		535D474F26156F4E001E851B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				53AEEB2A261135700019EE7F /* Colors.xcassets */,
 				5307231A2612ABCD001DB26E /* Cases.swift */,
 				5307231D2612AF4A001DB26E /* DataModel.swift */,
+				53165024261949CE00E75A2F /* GraphsView.swift */,
 				53C4598526112D31002CE034 /* Preview Content */,
 			);
 			path = CovidApp;
@@ -206,6 +209,7 @@
 				53C459A526113107002CE034 /* Fonts.swift in Sources */,
 				535D474A261569B8001E851B /* CountryView.swift in Sources */,
 				535D474D26156AFE001E851B /* DataView.swift in Sources */,
+				53165025261949CE00E75A2F /* GraphsView.swift in Sources */,
 				535D475026156F4E001E851B /* MapView.swift in Sources */,
 				53C4598026112D30002CE034 /* CovidAppApp.swift in Sources */,
 			);
