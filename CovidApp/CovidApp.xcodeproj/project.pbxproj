@@ -14,6 +14,11 @@
 		535D474D26156AFE001E851B /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535D474C26156AFE001E851B /* DataView.swift */; };
 		535D475026156F4E001E851B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535D474F26156F4E001E851B /* MapView.swift */; };
 		5390439A26142A6000AFA9F3 /* CountryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5390439926142A6000AFA9F3 /* CountryCellView.swift */; };
+		5395A04626195E8B0091DA11 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395A04526195E8B0091DA11 /* NewsModel.swift */; };
+		5395A0492619656A0091DA11 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395A0482619656A0091DA11 /* News.swift */; };
+		5395A04C261972C80091DA11 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395A04B261972C80091DA11 /* FeedView.swift */; };
+		5395A04F261974A50091DA11 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395A04E261974A50091DA11 /* ArticleView.swift */; };
+		5395A053261975850091DA11 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5395A052261975850091DA11 /* URLImage */; };
 		53AEEB2B261135700019EE7F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AEEB2A261135700019EE7F /* Colors.xcassets */; };
 		53C4598026112D30002CE034 /* CovidAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4597F26112D30002CE034 /* CovidAppApp.swift */; };
 		53C4598226112D30002CE034 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4598126112D30002CE034 /* ListView.swift */; };
@@ -35,6 +40,10 @@
 		535D474C26156AFE001E851B /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		535D474F26156F4E001E851B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		5390439926142A6000AFA9F3 /* CountryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCellView.swift; sourceTree = "<group>"; };
+		5395A04526195E8B0091DA11 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		5395A0482619656A0091DA11 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		5395A04B261972C80091DA11 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		5395A04E261974A50091DA11 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		53AEEB2A261135700019EE7F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		53C4597C26112D30002CE034 /* CovidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C4597F26112D30002CE034 /* CovidAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidAppApp.swift; sourceTree = "<group>"; };
@@ -56,6 +65,7 @@
 				53C4599A26112FCC002CE034 /* Kingfisher in Frameworks */,
 				53C4599E26112FF3002CE034 /* SwiftUICharts in Frameworks */,
 				53C4599626112F58002CE034 /* SwiftyJSON in Frameworks */,
+				5395A053261975850091DA11 /* URLImage in Frameworks */,
 				53C4599226112E5B002CE034 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,7 +103,11 @@
 				53C4598826112D31002CE034 /* Info.plist */,
 				53AEEB2A261135700019EE7F /* Colors.xcassets */,
 				5307231A2612ABCD001DB26E /* Cases.swift */,
+				5395A0482619656A0091DA11 /* News.swift */,
 				5307231D2612AF4A001DB26E /* DataModel.swift */,
+				5395A04526195E8B0091DA11 /* NewsModel.swift */,
+				5395A04B261972C80091DA11 /* FeedView.swift */,
+				5395A04E261974A50091DA11 /* ArticleView.swift */,
 				53165024261949CE00E75A2F /* GraphsView.swift */,
 				53C4598526112D31002CE034 /* Preview Content */,
 			);
@@ -140,6 +154,7 @@
 				53C4599526112F58002CE034 /* SwiftyJSON */,
 				53C4599926112FCC002CE034 /* Kingfisher */,
 				53C4599D26112FF3002CE034 /* SwiftUICharts */,
+				5395A052261975850091DA11 /* URLImage */,
 			);
 			productName = CovidApp;
 			productReference = 53C4597C26112D30002CE034 /* CovidApp.app */;
@@ -173,6 +188,7 @@
 				53C4599426112F58002CE034 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				53C4599826112FCC002CE034 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				53C4599C26112FF3002CE034 /* XCRemoteSwiftPackageReference "ChartView" */,
+				5395A051261975850091DA11 /* XCRemoteSwiftPackageReference "url-image" */,
 			);
 			productRefGroup = 53C4597D26112D30002CE034 /* Products */;
 			projectDirPath = "";
@@ -207,9 +223,13 @@
 				53C4598226112D30002CE034 /* ListView.swift in Sources */,
 				5307231B2612ABCD001DB26E /* Cases.swift in Sources */,
 				53C459A526113107002CE034 /* Fonts.swift in Sources */,
+				5395A04F261974A50091DA11 /* ArticleView.swift in Sources */,
 				535D474A261569B8001E851B /* CountryView.swift in Sources */,
+				5395A0492619656A0091DA11 /* News.swift in Sources */,
+				5395A04626195E8B0091DA11 /* NewsModel.swift in Sources */,
 				535D474D26156AFE001E851B /* DataView.swift in Sources */,
 				53165025261949CE00E75A2F /* GraphsView.swift in Sources */,
+				5395A04C261972C80091DA11 /* FeedView.swift in Sources */,
 				535D475026156F4E001E851B /* MapView.swift in Sources */,
 				53C4598026112D30002CE034 /* CovidAppApp.swift in Sources */,
 			);
@@ -402,6 +422,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		5395A051261975850091DA11 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.3;
+			};
+		};
 		53C4599026112E5B002CE034 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -437,6 +465,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5395A052261975850091DA11 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5395A051261975850091DA11 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
 		53C4599126112E5B002CE034 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 53C4599026112E5B002CE034 /* XCRemoteSwiftPackageReference "Alamofire" */;

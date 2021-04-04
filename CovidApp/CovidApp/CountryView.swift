@@ -30,6 +30,7 @@ struct CountryView: View {
                 DataView(title: "Critical", value: country.critical)
             }
             .padding(.horizontal, 80)
+            HStack {
             NavigationLink(destination: GraphsView(country: country, cases: cases),
                            label: {
                             VStack {
@@ -38,6 +39,16 @@ struct CountryView: View {
                                 Image(systemName: "chart.bar.fill")
                             }
                            })
+            Spacer()
+            NavigationLink(destination: FeedView(country: country),
+                           label: {
+                                VStack {
+                                    Text("News")
+                                        .font(.Roboto(size: 24))
+                                    Image(systemName: "newspaper")
+                                }
+                           })
+            }.padding(.horizontal, 100)
             Spacer()
             MapView(country: country)
                 .padding(.bottom, 40)

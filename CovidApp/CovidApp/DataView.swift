@@ -28,7 +28,6 @@ struct DataView: View {
         formatter.numberStyle = .decimal
         formatter.maximumFractionDigits = 2
         let formattedAmount = formatter.string(from: value as NSNumber)!
-        print(formattedAmount)
         return formattedAmount
     }
 }
